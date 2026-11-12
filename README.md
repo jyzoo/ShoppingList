@@ -644,31 +644,3 @@ painter->restore();
 разделением данных, логики отображения и редактирования, а также
 использования сигналов и слотов Qt.
 
-## 10. Размещение проекта в GitHub
-
-Для хранения исходного кода проекта используется Git. В репозиторий
-рекомендуется включить исходные файлы, файл проекта qmake, README и
-`.gitignore`.
-
-Пример последовательности команд:
-
-``` bash
-git init
-git add .
-git commit -m "Initial project setup"
-git add .
-git commit -m "Implement shopping list model and view"
-git add .
-git commit -m "Add custom delegate and editing"
-git add .
-git commit -m "Add laboratory report"
-git branch -M main
-git remote add origin https://github.com/USERNAME/ShoppingList.git
-git push -u origin main
-```
-
-Вместо `USERNAME` необходимо указать имя пользователя GitHub, а URL
-заменить адресом созданного репозитория.
-
-В репозитории не следует хранить временные файлы сборки, исполняемые
-файлы и пользовательские настройки Qt Creator.

@@ -1,0 +1,17 @@
+
+# Qt Creator
+*.user
+*.user.*
+
+# Build files
+build/
+debug/
+release/
+*.o
+*.obj
+*.exe
+Makefile
+
+# IDE
+.idea/
+.vscode/
